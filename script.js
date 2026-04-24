@@ -50,4 +50,16 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        
+    emailjs.init("FXguWhvlkvFL6CDn9");
+
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        emailjs.sendForm("service_rvm8hfp", "template_tpxg8cp", this)
+            .then(function() {
+                alert("Message sent successfully!");
+            }, function(error) {
+                alert("Failed to send message.");
+                console.log(error);
+            });
+    });

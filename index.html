@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    emailjs.init("FXguWhvlkvFL6CDn9");
+</script>
 </head>
 <body>
 
@@ -73,9 +77,9 @@ I bring proactive problem-solving to every project—anticipating product needs 
     </section>
 
     <section id="education" class="container section-padding pt-0 reveal">
-        <h2 class="section-title">Education & Certificates</h2>
+        <h2 class="section-title">Education </h2>
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-12 mb-4">
                 <div class="common-card">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h4 class="text-primary mb-0"><i class="fas fa-graduation-cap me-2"></i>Education</h4>
@@ -98,30 +102,7 @@ I bring proactive problem-solving to every project—anticipating product needs 
                 </div>
             </div>
 
-            <div class="col-md-6 mb-4">
-                <div class="common-card">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="text-primary mb-0"><i class="fas fa-certificate me-2"></i>Certificates</h4>
-                        <span class="text-muted small">25 January 2026 - 15 March 2026</span>
-                    </div>
-                    <hr style="border-color: rgba(255,255,255,0.1);">
-                    
-                    <div class="d-flex justify-content-between align-items-start mb-2">
-                        <h5 class="mb-0 text-white">Web Designer (120 hrs)</h5>
-                        <a href="https://www.linkedin.com/in/ahmed-mubarak-8a0895379/?locale=ar" target="_blank" class="social-circle-small border border-secondary text-primary" style="width: 55px; height: 55px; font-size: 0.9rem;" title="View on LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                    
-                    <p class="text-info small mb-3"><i class="fas fa-building me-2"></i>National Telecommunication Institute (NTI)</p>
-                    <p class="text-secondary small mb-1"><strong>Evaluation:</strong> 99%</p>
-                    <ul class="list-unstyled text-secondary small mt-2">
-                        <li><i class="fas fa-check text-success me-2"></i> HTML5, CSS3 </li>
-                        <li><i class="fas fa-check text-success me-2"></i> Responsive Design & Bootstrap</li>
-                        <li><i class="fas fa-check text-success me-2"></i> JavaScript for Web Designers</li>
-                    </ul>
-                </div>
-            </div>
+            
         </div>
     </section>
 
@@ -133,33 +114,7 @@ I bring proactive problem-solving to every project—anticipating product needs 
     <h4 class="mb-4 text-center text-info"><i class="fas fa-code me-2"></i>Technical</h4>
     <div class="row g-3">
 
-        <div class="col-6 col-lg-4">
-            <div class="skill-box">
-                <img src="assets/icons/html-5.svg" alt="HTML" class="skill-icon-img">
-                <span class="skill-name">HTML</span>
-            </div>
-        </div>
 
-        <div class="col-6 col-lg-4">
-            <div class="skill-box">
-                <img src="assets/icons/css-3-svgrepo-com.svg" alt="CSS" class="skill-icon-img">
-                <span class="skill-name">CSS</span>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-4">
-            <div class="skill-box">
-                <img src="assets/icons/javascript-svgrepo-com.svg" alt="JavaScript" class="skill-icon-img">
-                <span class="skill-name">JavaScript</span>
-            </div>
-        </div>
-
-        <div class="col-6 col-lg-4">
-            <div class="skill-box">
-                <img src="assets/icons/bootstrap-fill-svgrepo-com.svg" alt="Bootstrap" class="skill-icon-img">
-                <span class="skill-name">Bootstrap</span>
-            </div>
-        </div>
 
         <div class="col-6 col-lg-4">
             <div class="skill-box">
@@ -191,8 +146,49 @@ I bring proactive problem-solving to every project—anticipating product needs 
 
         <div class="col-6 col-lg-4">
             <div class="skill-box">
+                <img src="assets/icons/LINQ.jfif" alt="Responsive Design" class="skill-icon-img" style="width: 100px;">
+                <span class="skill-name">LINQ</span>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-4">
+            <div class="skill-box">
                 <img src="https://static.gunnarpeipman.com/wp-content/uploads/2019/12/ef-core-featured.png" alt="Responsive Design" class="skill-icon-img">
                 <span class="skill-name">Entity Framework Core</span>
+            </div>
+        </div>
+
+                <div class="col-6 col-lg-4">
+            <div class="skill-box">
+                <img src="assets/icons/MVC.svg" alt="Responsive Design" class="skill-icon-img">
+                <span class="skill-name">ASP.NET MVC</span>
+            </div>
+        </div>
+        <div class="col-6 col-lg-4">
+            <div class="skill-box">
+                <img src="assets/icons/html-5.svg" alt="HTML" class="skill-icon-img">
+                <span class="skill-name">HTML</span>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-4">
+            <div class="skill-box">
+                <img src="assets/icons/css-3-svgrepo-com.svg" alt="CSS" class="skill-icon-img">
+                <span class="skill-name">CSS</span>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-4">
+            <div class="skill-box">
+                <img src="assets/icons/javascript-svgrepo-com.svg" alt="JavaScript" class="skill-icon-img">
+                <span class="skill-name">JavaScript</span>
+            </div>
+        </div>
+
+        <div class="col-6 col-lg-4">
+            <div class="skill-box">
+                <img src="assets/icons/bootstrap-fill-svgrepo-com.svg" alt="Bootstrap" class="skill-icon-img">
+                <span class="skill-name">Bootstrap</span>
             </div>
         </div>
 
@@ -313,31 +309,7 @@ Successfully participated in technical initiatives that strengthened problem-sol
 </p>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-content common-card">
-                            <div class="d-flex justify-content-between align-items-start mb-2">
-                                <div>
-                                    <span class="date-badge">January 2026 - February 2026</span>
-                                    <h3 class="mb-1">Web Designer Course</h3>
-                                    <p class="text-info mb-4">National Telecommunication Institute (NTI) - offline(creativa)</p>
-                                </div>
-                                <a href="https://nti.sci.eg/" target="_blank" class="logo-btn ms-3" title="ITI">
-                                    <img src="assets/NTI.png" alt="NTI Logo">
-                                </a>
-                            </div>
-                            
-                            <p>
-Completed an intensive web design training program focused on modern frontend development and responsive user interfaces.  
-The program covered core technologies including HTML, CSS, and JavaScript fundamentals, alongside best practices in UI/UX design.
-</p>
-<p>
-Gained hands-on experience in building responsive web pages and interactive layouts, emphasizing clean code and cross-device compatibility.
-</p>
-<p>
-Successfully applied acquired skills in practical projects, demonstrating proficiency in creating functional and visually appealing web interfaces.
-</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -447,23 +419,47 @@ Successfully applied acquired skills in practical projects, demonstrating profic
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="common-card p-0 overflow-hidden d-flex flex-column">
-                    <img src="assets/projectsImages/E-Commerce.png" alt="Toku" class="project-img">
+                    <img src="assets/projectsImages/E-Commerce1.png" alt="Toku" class="project-img" >
                     <div class="p-4 flex-grow-1 d-flex flex-column">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <h4 class="mb-0">E-Commerce</h4>
+                            <h4 class="mb-0">e-commerce-platform</h4>
                         </div>
-                        <p class="text-primary small mb-3">Final Project NTI (Web Designer course)</p>
+                        <p class="text-primary small mb-3">Personal Projects</p>
                         <div class="mb-3 flex-grow-1">
-                            <p class="car-text text-secondary mb-1"><strong>Challenge:</strong> Building a responsive e-commerce website that provides a smooth shopping experience across different devices while handling product browsing, cart management, and user interactions efficiently.</p>
-                            <p class="car-text text-secondary mb-1"><strong>Action:</strong> Developed the frontend using HTML, CSS, JavaScript, and Bootstrap, implemented dynamic product rendering, shopping cart functionality, and local storage to manage cart and user data without a backend.</p>
-                            <p class="car-text text-secondary mb-0"><strong>Result:</strong> Successfully delivered a fully responsive e-commerce interface with interactive features, smooth navigation, and persistent cart functionality using Local Storage.</p>
+                            <p class="car-text text-secondary mb-1"><strong>Challenge:</strong> Build a scalable and secure E-Commerce backend handling multiple modules (authentication, products, cart, and orders) with clean architecture and maintainability.</p>
+                            <p class="car-text text-secondary mb-1"><strong>Action:</strong> Developed a RESTful API using ASP.NET Core (.NET 9) following Clean Architecture. Implemented JWT authentication, role-based access control, and core features including product management, cart, wishlist, and order processing using Entity Framework Core, Repository Pattern, and AutoMapper.</p>
+                            <p class="car-text text-secondary mb-0"><strong>Result:</strong> Delivered a production-ready, secure, and scalable API with well-structured code, improved maintainability, and seamless support for core E-Commerce operations.</p>
                         </div>
 
                         <div class="mt-auto">
                             <div class="mb-3">
-                                <span class="tech-badge">HTML</span> <span class="tech-badge">CSS</span> <span class="tech-badge">Bootstrap</span> <span class="tech-badge">JavaScript</span> <span class="tech-badge">Local Storage</span> <span class="tech-badge">Fack API</span>
+                                <span class="tech-badge">ASP.NET Core Web API (.NET 9)</span> <span class="tech-badge">Entity Framework Core</span> <span class="tech-badge">SQL Server</span> <span class="tech-badge">JWT</span> <span class="tech-badge">LINQ</span> <span class="tech-badge">Dependency Injection</span>
                             </div>
-                            <a href="https://github.com/ahmedmuparak/Final-Project-NTi-E-Commerce-.git" target="_blank" class="btn btn-outline-light w-100"><i class="fab fa-github me-2"></i>View on GitHub</a>
+                            <a href="https://github.com/ahmedmuparak/e-commerce-platform.git" target="_blank" class="btn btn-outline-light w-100"><i class="fab fa-github me-2"></i>View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="common-card p-0 overflow-hidden d-flex flex-column">
+                    <img src="assets/projectsImages/Aqarak_WebAPI.png" alt="Toku" class="project-img" style="width: 400px;">
+                    <div class="p-4 flex-grow-1 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h4 class="mb-0">Aqarak_WebAPI</h4>
+                        </div>
+                        <p class="text-primary small mb-3">Personal Projects</p>
+                        <div class="mb-3 flex-grow-1">
+                            <p class="car-text text-secondary mb-1"><strong>Challenge:</strong> Build a scalable real estate backend that manages properties, user interactions, and image uploads while maintaining clean architecture and flexibility.</p>
+                            <p class="car-text text-secondary mb-1"><strong>Action:</strong> Developed a RESTful API using ASP.NET Core with Clean Architecture and Repository Pattern. Implemented authentication, property management, favorites, classification by location/category, and file upload with image handling using Entity Framework Core and DTOs.</p>
+                            <p class="car-text text-secondary mb-0"><strong>Result:</strong> Delivered a secure, maintainable, and scalable Real Estate API with efficient data handling and seamless support for property listing and image management.</p>
+                        </div>
+
+                        <div class="mt-auto">
+                            <div class="mb-3">
+                                <span class="tech-badge">ASP.NET Core Web API (.NET 9)</span> <span class="tech-badge">Entity Framework Core</span> <span class="tech-badge">SQL Server</span> <span class="tech-badge">JWT</span> <span class="tech-badge">LINQ</span> 
+                            </div>
+                            <a href="https://github.com/ahmedmuparak/Aqarak_WebAPI.git" target="_blank" class="btn btn-outline-light w-100"><i class="fab fa-github me-2"></i>View on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -540,7 +536,7 @@ Successfully applied acquired skills in practical projects, demonstrating profic
             </div>
 
             <div class="col-lg-7">
-                <form class="contact-form" action="mailto:ahmedmopark68@gmail.com" method="post" enctype="text/plain">
+                <form id="contactForm" class="contact-form">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
