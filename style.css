@@ -300,6 +300,7 @@
         }
 
         .car-text strong { color: var(--primary-color); }
+        .Features { color: var(--primary-color); }
         .car-text { margin-bottom: 5px; font-size: 0.95rem; }
 
         /* === Skills === */
